@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 450px;
+    height: 600px;
+    background-color: purple;
+
+    border: 2px solid black; /*borda*/
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo{
+    color: yellow;
+}
+
+.imagem{
+    width: 200px;
+    
+}
+
+.caixaBotoes{
+    display: flex;
+    gap: 20px;
+}
+
+.botao{
+    width: 70px;
+    height: 30px;
+    background-color: antiquewhite;
+
+    border: 2px solid black;
+    border-radius: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.listaEstrela{
+    display: flex;
+    list-style-type: none;
+}
